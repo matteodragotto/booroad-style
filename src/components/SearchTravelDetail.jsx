@@ -25,7 +25,9 @@ const SearchTravelDetail = () => {
       return;
     }
 
-    const filteredTravelData = initialPartecipants.filter(partecipante => partecipante?.nome.toLowerCase().includes(searchData.toLowerCase()));
+    const filteredTravelData = initialPartecipants.filter(partecipante => partecipante?.nome.toLowerCase().includes(searchData.toLowerCase()) ||
+      partecipante?.cognome.toLowerCase().includes(searchData.toLowerCase())
+    );
     if (searchData.length > 0) {
       setInitialPartecipants(filteredTravelData);
     } else {
