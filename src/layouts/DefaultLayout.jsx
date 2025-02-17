@@ -11,10 +11,6 @@ const DefaultLayout = () => {
       <main>
         <Outlet />
       </main>
-
-      <footer>
-        <p className="text-center">Gruppo 6</p>
-      </footer>
     </>
   )
 }

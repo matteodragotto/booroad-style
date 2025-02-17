@@ -8,13 +8,14 @@ const NewTravel = ({ }) => {
   const handleShow = () => setShowModal(true);
 
   return (
-    <div>
+    <div className="d-none d-lg-block">
       <button
         type="button"
         className="btn btn-primary"
         onClick={handleShow}
       >
-        Aggiungi viaggio
+        <i className="bi bi-plus-circle me-2"></i>
+        Aggiungi un viaggio
       </button>
 
       {showModal && (
@@ -22,14 +23,15 @@ const NewTravel = ({ }) => {
           className="modal fade show"
           id="staticBackdrop"
           tabIndex="-1"
+          backdrop="static"
           aria-labelledby="staticBackdropLabel"
           aria-hidden="false"
           style={{ display: 'block' }}
         >
-          <div className="modal-dialog">
+          <div className="modal-dialog-centered modal-dialog">
             <div className="modal-content">
               <div className="modal-header d-flex align-items-center">
-                <h4 className="fw-semibold my-auto"> <i class="bi bi-airplane fs-5 me-2"></i>Aggiungi il nuovo viaggio</h4>
+                <h4 className="fw-semibold my-auto text-black"> <i class="bi bi-airplane fs-5 me-2"></i>Aggiungi il nuovo viaggio</h4>
                 <button
                   type="button"
                   className="btn-close"

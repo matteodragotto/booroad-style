@@ -69,6 +69,88 @@ const viaggi = [
       { id_partecipante: 'P29', nome: 'Antonio', cognome: 'Giovannini', telefono: '3312288776', email: 'antonio.giovannini@example.com', codice_fiscale: 'GVNNTN82A12B830E' },
       { id_partecipante: 'P30', nome: 'Simone', cognome: 'Vitali', telefono: '3322244668', email: 'simone.vitali@example.com', codice_fiscale: 'VTLMSM84C07L719V' }
     ]
+  },
+  {
+    id_viaggio: 4,
+    nome_viaggio: 'Safari in Kenya',
+    destinazione: 'Kenya',
+    tipologia: 'Avventura',
+    accompagnatore: 'Francesca Verdi',
+    immagine: 'kenya.jpeg',
+    descrizione: 'Un emozionante safari nel cuore dell\'Africa, alla scoperta degli animali selvaggi e delle bellezze naturali del Kenya. Visita il Parco Nazionale del Masai Mara e il Lago Nakuru.',
+    data_inizio: '2025-06-15',
+    data_fine: '2025-06-25',
+    partecipanti: [
+      { id_partecipante: 'P31', nome: 'Giulia', cognome: 'Pastore', telefono: '3382212333', email: 'giulia.pastore@example.com', codice_fiscale: 'PSTRGL92C41Z404W' },
+      { id_partecipante: 'P32', nome: 'Antonio', cognome: 'De Luca', telefono: '3334455667', email: 'antonio.deluca@example.com', codice_fiscale: 'DLCTNN85T01F839R' },
+      { id_partecipante: 'P33', nome: 'Luca', cognome: 'Romano', telefono: '3381234567', email: 'luca.romano@example.com', codice_fiscale: 'RMNLCA84M12B913B' },
+      { id_partecipante: 'P34', nome: 'Paola', cognome: 'Marini', telefono: '3401122334', email: 'paola.marini@example.com', codice_fiscale: 'MRNPPL92B40H501Q' },
+      { id_partecipante: 'P35', nome: 'Simone', cognome: 'Sanna', telefono: '3275647382', email: 'simone.sanna@example.com', codice_fiscale: 'SNNMNE81T24X205M' },
+      { id_partecipante: 'P36', nome: 'Riccardo', cognome: 'Bianchi', telefono: '3382345678', email: 'riccardo.bianchi@example.com', codice_fiscale: 'BCHRCD82B12D206W' },
+      { id_partecipante: 'P37', nome: 'Elisa', cognome: 'Vitali', telefono: '3394455667', email: 'elisa.vitali@example.com', codice_fiscale: 'VTLESA85M10H501P' }
+    ]
+  },
+
+  {
+    id_viaggio: 5,
+    nome_viaggio: 'Esplorazione dell\'Islanda',
+    destinazione: 'Islanda',
+    tipologia: 'Avventura',
+    accompagnatore: 'Elena Neri',
+    immagine: 'islanda.jpeg',
+    descrizione: 'Un viaggio indimenticabile alla scoperta dei paesaggi mozzafiato dell\'Islanda, tra geyser, cascate, vulcani e terme naturali.',
+    data_inizio: '2025-08-05',
+    data_fine: '2025-08-12',
+    partecipanti: [
+      { id_partecipante: 'P36', nome: 'Martina', cognome: 'Galli', telefono: '3301122334', email: 'martina.galli@example.com', codice_fiscale: 'GLLMTR94R43Z404F' },
+      { id_partecipante: 'P37', nome: 'Marco', cognome: 'Bernardi', telefono: '3339876543', email: 'marco.bernardi@example.com', codice_fiscale: 'BRNMRC91F01A123D' },
+      { id_partecipante: 'P38', nome: 'Francesco', cognome: 'De Santis', telefono: '3203344556', email: 'francesco.desantis@example.com', codice_fiscale: 'DSNFRN85L12D175H' },
+      { id_partecipante: 'P39', nome: 'Sara', cognome: 'Corsi', telefono: '3271122334', email: 'sara.corsi@example.com', codice_fiscale: 'CRSSRA80T60G888H' },
+      { id_partecipante: 'P40', nome: 'Giovanni', cognome: 'Fabbri', telefono: '3385566778', email: 'giovanni.fabbri@example.com', codice_fiscale: 'FBBGNN93L10G674K' },
+      { id_partecipante: 'P41', nome: 'Luca', cognome: 'Marini', telefono: '3332233445', email: 'luca.marini@example.com', codice_fiscale: 'MRNLCA81P16D405E' },
+      { id_partecipante: 'P42', nome: 'Alessandra', cognome: 'Rossi', telefono: '3275566778', email: 'alessandra.rossi@example.com', codice_fiscale: 'RSSLSS92C50H123F' }
+    ]
+  },
+
+  {
+    id_viaggio: 6,
+    nome_viaggio: 'Crociere nel Mediterraneo',
+    destinazione: 'Mediterraneo',
+    tipologia: 'Relax',
+    accompagnatore: 'Marco Ferretti',
+    immagine: 'mediterraneo.jpeg',
+    descrizione: 'Una crociera rilassante nel Mediterraneo, con tappe in luoghi splendidi come la Grecia, la Spagna e le isole Baleari. Goditi il mare, la cucina locale e la tranquillità.',
+    data_inizio: '2025-09-01',
+    data_fine: '2025-09-10',
+    partecipanti: [
+      { id_partecipante: 'P41', nome: 'Giorgia', cognome: 'Neri', telefono: '3286677889', email: 'giorgia.neri@example.com', codice_fiscale: 'NRIGRG91B41F205P' },
+      { id_partecipante: 'P42', nome: 'Andrea', cognome: 'Ricci', telefono: '3345566778', email: 'andrea.ricci@example.com', codice_fiscale: 'RCCNDR85H01B412C' },
+      { id_partecipante: 'P43', nome: 'Lorenzo', cognome: 'Franco', telefono: '3358899001', email: 'lorenzo.franco@example.com', codice_fiscale: 'FNCNZN87R12Z404T' },
+      { id_partecipante: 'P44', nome: 'Marta', cognome: 'Vitali', telefono: '3334455667', email: 'marta.vitali@example.com', codice_fiscale: 'VTLMRT89A12F839P' },
+      { id_partecipante: 'P45', nome: 'Alessio', cognome: 'Bassi', telefono: '3381122334', email: 'alessio.bassi@example.com', codice_fiscale: 'BSSLSS92B41G913P' },
+      { id_partecipante: 'P46', nome: 'Francesca', cognome: 'Grassi', telefono: '3382233445', email: 'francesca.grassi@example.com', codice_fiscale: 'GRSFNC81H29Z614N' },
+      { id_partecipante: 'P47', nome: 'Giulia', cognome: 'Giordano', telefono: '3275566778', email: 'giulia.giordano@example.com', codice_fiscale: 'GRDGLI84L19G590R' }
+    ]
+  },
+
+  {
+    id_viaggio: 7,
+    nome_viaggio: 'Esplorazione delle Galapagos',
+    destinazione: 'Galapagos',
+    tipologia: 'Avventura',
+    accompagnatore: 'Luca Bellini',
+    immagine: 'galapagos.jpeg',
+    descrizione: 'Un viaggio unico nell\'arcipelago delle Galapagos, tra flora e fauna uniche al mondo. Scopri la biodiversità e le spiagge incontaminate di questo paradiso terrestre.',
+    data_inizio: '2025-10-10',
+    data_fine: '2025-10-20',
+    partecipanti: [
+      { id_partecipante: 'P48', nome: 'Carla', cognome: 'Toni', telefono: '3291122334', email: 'carla.toni@example.com', codice_fiscale: 'TNICRL85P12F839M' },
+      { id_partecipante: 'P49', nome: 'Giovanni', cognome: 'Barbieri', telefono: '3382233445', email: 'giovanni.barbieri@example.com', codice_fiscale: 'BRBGNN81R23H739X' },
+      { id_partecipante: 'P50', nome: 'Federica', cognome: 'De Luca', telefono: '3334455667', email: 'federica.deluca@example.com', codice_fiscale: 'DLCFDR88C11Z404P' },
+      { id_partecipante: 'P51', nome: 'Alessandro', cognome: 'Ferrari', telefono: '3272233445', email: 'alessandro.ferrari@example.com', codice_fiscale: 'FRRLND92B40F705X' },
+      { id_partecipante: 'P52', nome: 'Sara', cognome: 'Piazza', telefono: '3203344556', email: 'sara.piazza@example.com', codice_fiscale: 'PZZSRA86A50L219C' },
+      { id_partecipante: 'P53', nome: 'Riccardo', cognome: 'Petti', telefono: '3385566778', email: 'riccardo.petti@example.com', codice_fiscale: 'PTTRCD83B18F204G' }
+    ]
   }
 ];
 

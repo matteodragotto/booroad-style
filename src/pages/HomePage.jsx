@@ -16,24 +16,32 @@ const HomePage = () => {
 
   return (
 
-    <div className='container py-5 text-center'>
-      <div className='d-flex  justify-content-center '>
-        <div>
-          {<SearchHomePage />}
-        </div>
-
+    <div className='container py-5 text-center overflow-hidden'>
+      <div className='d-flex  justify-content-around '>
+        <SearchHomePage />
+        <NewTravel />
       </div>
 
-      {validate() ? (<h1>Nessun viaggio in programma</h1>) : (
-        <>
-          <h1 className='my-5 '>Viaggi in programma</h1>
-          {travelData.map(viaggio => (
-            <TravelListCard key={viaggio.id_viaggio} viaggio={viaggio} />
-          ))}
-        </>
-      )
-      }
-      <NewTravel />
+      <div>
+        {validate() ? (<h2>Nessun viaggio in programma</h2>) : (
+          <>
+            <h2 className='my-3 '>Viaggi in programma</h2>
+          </>
+        )
+        }
+      </div>
+
+      <div className="scroll-custom">
+        {validate() ? null : (
+          <>
+            {travelData.map(viaggio => (
+              <TravelListCard key={viaggio.id_viaggio} viaggio={viaggio} />
+            ))}
+          </>
+        )
+        }
+      </div>
+
     </div>
 
 

@@ -22,10 +22,15 @@ const TravelDetail = () => {
   return (
     <div className="container py-5">
       <TravelDetailCard />
-      <h2 className="mt-5 my-4 text-center ">Elenco partecipanti</h2>
-      <SearchTravelDetail />
-      <PartecipantsList />
-      <NewPartecipant />
+      <div className="d-flex justify-content-center justify-content-lg-between align-items-center flex-column flex-lg-row">
+        <SearchTravelDetail />
+        <NewPartecipant />
+      </div>
+      <h4 className="my-3 text-center ">Elenco partecipanti</h4>
+      <div className="container h-100 w-100">
+        <PartecipantsList />
+      </div>
+
     </div>
 
   )

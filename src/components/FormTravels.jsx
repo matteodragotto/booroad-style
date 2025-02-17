@@ -140,7 +140,7 @@ const FormTravels = () => {
           onChange={handleChange}
         />
       </div>
-      <button type="submit" className="btn btn-primary">Submit</button>
+      <button type="submit" className="btn btn-primary">Aggiungi viaggio</button>
     </form>
   )
 }

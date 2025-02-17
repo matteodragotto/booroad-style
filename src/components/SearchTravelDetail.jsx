@@ -38,18 +38,18 @@ const SearchTravelDetail = () => {
   }, [searchData]);
 
   return (
-    <div className="mb-5 container w-75">
-      <form className="d-flex" role="search">
+    <div className="w-50">
+      <form className="d-flex w-100" role="search" >
         <input
           className="form-control my-2 search-bar"
           type="search"
-          placeholder="Inserisci nome o cognome"
+          placeholder="Ricerca partecipanti per nome o cognome"
           aria-label="Search"
           value={searchData}
           onChange={handleChange}
         />
       </form>
-    </div>
+    </div >
   );
 };
 

@@ -6,10 +6,10 @@ const TravelDetailCard = () => {
   return (
     <div className="card mb-3">
       <div className="row g-0">
-        <div className="col-md-4 img-detail">
+        <div className="col-4 img-detail">
           <img src={`../public/img/${originalTravelDetail.immagine}`} class="img-fluid rounded-start" alt={originalTravelDetail.nome_viaggio} />
         </div>
-        <div className="col-md-8">
+        <div className="col-8">
           <div className="card-body text-start">
             <h3 className="card-title ">{originalTravelDetail.nome_viaggio}</h3>
             <p className="card-text my-3"><span className="fw-bold">Descrizione: </span>{originalTravelDetail.descrizione}</p>

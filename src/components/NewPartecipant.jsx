@@ -8,12 +8,13 @@ const NewTravel = () => {
   const handleShow = () => setShowModal(true);
 
   return (
-    <div className="d-flex justify-content-center my-5">
+    <div className="my-2 m-lg-0 d-none d-lg-block text-center">
       <button
         type="button"
         className="btn btn-primary"
         onClick={handleShow}
       >
+        <i className="bi bi-plus-circle me-2"></i>
         Aggiungi partecipante
       </button>
 
@@ -25,8 +26,9 @@ const NewTravel = () => {
           aria-labelledby="staticBackdropLabel"
           aria-hidden="false"
           style={{ display: 'block' }}
+
         >
-          <div className="modal-dialog">
+          <div className="modal-dialog-centered modal-dialog">
             <div className="modal-content">
               <div className="modal-header">
                 <h5 className="fw-semibold my-auto"> <i class="bi bi-person-plus fs-5 me-2"></i>Aggiungi il nuovo partecipante</h5>

@@ -5,16 +5,21 @@
   font-family: Montserrat;
 }
 
-h1 {
-  color: white;
-  font-weight: 600;
-  font-size: 50px;
+body {
+  overflow: hidden;
 }
+
 
 h2 {
   color: white;
+  font-weight: 600;
+  font-size: 35px;
+}
+
+h4 {
+  color: white;
   font-weight: 500;
-  font-size: 40px;
+  font-size: 30px;
 }
 
 a {
@@ -24,8 +29,39 @@ a {
 main {
   background-image: url('../public/img/Sfondo2.jpg');
   background-repeat: no-repeat;
-  background-size: auto 100%;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  height: calc(100vh - 60px);
+
+  .container {
+    height: 100%;
+
+    .scroll-custom {
+      width: 100%;
+      height: 600px;
+      overflow: auto;
+      scrollbar-width: none;
+    }
+
+    .scroll-custom-partecipant {
+      width: 100%;
+      height: 250px;
+      overflow: auto;
+      scrollbar-width: none;
+
+    }
+
+  }
+
+
 }
+
+#staticBackdrop {
+  background: #00000081;
+
+}
+
 
 
 header,
@@ -46,6 +82,11 @@ footer {
 
 .search-bar {
   border-radius: 30px;
+}
+
+.offcanvas {
+  background-color: #3376ce;
+  color: white;
 }
 
 .btn {

@@ -107,7 +107,7 @@ const FormPartecipants = () => {
           onChange={handleChange}
         />
       </div>
-      <button type="submit" className="btn btn-primary ">Invio</button>
+      <button type="submit" className="btn btn-primary ">Aggiungi partecipante</button>
     </form>
   )
 }
